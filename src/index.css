@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Madimi+One');
+
+body {
+  background-color: #2C3639;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  color: #DCD7C9;
+  font-family: 'Madimi One', sans-serif;
+  letter-spacing: 5px;
+}
+
+.card {
+  display: flex;
+  width: 18rem;
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.card-body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #A27B5C;
+  font-family: 'Madimi One', sans-serif;
+}
+
+.card-text {
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 0;
+}
+
+.boton {
+  margin-top: auto;
+  align-items: center;
+}
+
+.card-text:last-child {
+  margin-bottom: 0;
+}
+
+footer {
+  background-color: #2C3639;
+  padding: 20px;
+  text-align: center;
+  color: whitesmoke;
+  position: relative;
+  bottom: 0;
+  margin-top: 20px;
+}
+
+
+
+
